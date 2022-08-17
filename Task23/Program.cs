@@ -5,7 +5,7 @@
 // 5 -> 1, 8, 27, 64, 125
 
 Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 if (n > 0)
 {
