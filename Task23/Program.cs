@@ -4,18 +4,12 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите целое, положительное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число: ");
+int n = int.Parse(Console.ReadLine());
 
-int MultiplNumber(int number)
+if (n > 0)
 {
-    int multipl = 1;
-    for (int i = 1; i <= number; i++)
-    {
-        multipl = i*i*i;
-    }
-    return multipl;
+for (int i = 1;  i <= n; i++)
+Console.WriteLine($"{i}\t {i*i*i}");
 }
-
-int result = MultiplNumber(number);
-Console.WriteLine($"Произведение чисел от 1 до {number} = {result}");
+else Console.WriteLine("Введено отрицательное значение!");
