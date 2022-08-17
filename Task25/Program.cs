@@ -19,4 +19,4 @@ if (b > 0)
         }
         Console.WriteLine($"{b}-я cтепень числа {a} -> {i}");
 }
-else Console.WriteLine("Введено отрицательное число!");
+else Console.WriteLine("Введено НЕ натуральное число. Введите число от 1 или более!");

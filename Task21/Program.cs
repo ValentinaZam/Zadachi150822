@@ -17,5 +17,5 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату Z для второй точки: ");
 int z2 = Convert.ToInt32(Console.ReadLine());
 
-double result = Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2 - z1));
+double result = Math.Sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2 - z1)*(z2 - z1));
 Console.WriteLine(Math.Round(result,2));
