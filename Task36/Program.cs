@@ -28,7 +28,7 @@ void PrintArray(int[] array)
     Console.WriteLine();
 }
 
-int[] arr = CreateArrayRndInt(10, 1, 999);
+int[] arr = CreateArrayRndInt(10, -99, 99);
 PrintArray(arr);
 
 int summ = 0;
